@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery {
+    margin: 40px auto;
+    width: 100%;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: grid;
+    justify-content: center;
+}
+
+
+.gallery-item {
+    border-radius: 10px;
+    width: 320px;
+    color:black;
+    word-wrap: break-word;
+    margin-bottom: 70px;
+}
+
+.gallery-item:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.3);
+    transform: scale(1.2);
+    transition: 0.5s;
+    color: black;
+}
+
+.gallery-item img {
+    height: 230px;
+    width: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+@media (max-width: 1400px) {
+
+    .gallery {
+        margin: 20px auto;
+        width: 100%;
+        gap: 40px;
+        grid-template-columns: .1fr .1fr .1fr .1fr;
+        grid-template-rows: .1fr .1fr .1fr .1fr;
+        display: absolute;
+        justify-content: center;
+        transition: 1s
+    }
+    
+    .gallery-item {
+        margin-top: 50px;
+        height: 230px;
+        width: 260px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 100px;
+    }
+
+    .gallery-item img {
+        height: 180px;
+        width: 260px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .gallery-item img {
+        height: 150px;
+        width: 225px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .gallery-item {
+        margin-top: 50px;
+        height: 150px;
+        width: 225px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 100px;
+
+    }
+
+    .gallery {
+        margin: 20px auto;
+        width: 100%;
+        gap: 30px;
+        grid-template-columns: .1fr .1fr .1fr;
+        grid-template-rows: .1fr .1fr .1fr;
+        display: relative;
+        justify-content: center;
+        transition: 1s
+    }
+}
+
+@media (max-width: 767px) {
+    .gallery-item img {
+        height: 140px;
+        width: 195px;
+        border-radius: 10px;
+
+    }
+
+    .gallery {
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+        grid-template-columns: .1fr .1fr;
+        grid-template-rows: .1fr .1fr;
+        display: grid;
+        margin-bottom: 60px;
+
+    }
+}
