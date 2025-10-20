@@ -28,8 +28,7 @@ Bu web sitesi, firmanın **otomatik presiyometre cihazını** tanıtmakta, yapt�
 
 ## 🖼️ Ekran Görüntüsü
 
-> ```markdown
-> ![image alt](https://github.com/yusuffcapa/Geotek-Teknoloji/blob/71d0ceeec878a3e6123e951d9bd74c687241c781/geotekteknoloji.png)
-> ![image alt](https://github.com/yusuffcapa/Geotek-Teknoloji/blob/71d0ceeec878a3e6123e951d9bd74c687241c781/geotekteknoloji%20mobile.png)
-> ```
+![image alt](https://github.com/yusuffcapa/Geotek-Teknoloji/blob/71d0ceeec878a3e6123e951d9bd74c687241c781/geotekteknoloji.png)
+![image alt](https://github.com/yusuffcapa/Geotek-Teknoloji/blob/71d0ceeec878a3e6123e951d9bd74c687241c781/geotekteknoloji%20mobile.png)
+
 
